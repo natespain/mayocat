@@ -1,0 +1,74 @@
+html{
+	background: url(../images/real-mayo-cat_mobile.gif) no-repeat top center fixed #5196cf;
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+@media screen and (min-width: 900px) {
+  html{
+	background: url(../images/real-mayo-cat-twang.gif) no-repeat top center fixed;
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+}
+
+@media screen and (min-width: 900px) {
+  html{
+	background: url(../images/real-mayo-cat-twang.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width:1320px;
+}
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+	text-decoration: none;
+	color:rgb(255, 255, 2555, 1.0);
+	border-bottom: 1.5px solid rgb(255, 255, 255, 1.0);
+	-webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+}
+
+a:hover{
+	color:rgb(255, 255, 2555, .5);
+	border-bottom: 1.5px solid rgb(255, 255, 255, .5);
+}
+
+p{
+	color:#fff;
+	font-size: .75rem;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+	p{
+  	text-align: right;
+  	padding-right:40px;
+}
+}
+
+.would-be-content {
+  flex: 1 0 auto;
+}
+
+.disclaimer{
+	flex-shrink: 0;
+}
